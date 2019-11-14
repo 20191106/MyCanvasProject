@@ -1,5 +1,7 @@
 package com.example.mycanvas2;
 
+import java.util.ArrayList;
+
 public class Ball {
     int posX;
     int posY;
@@ -30,7 +32,6 @@ public class Ball {
         if (posX > width - rad || posX < rad) posX -= velX;
         if (posY > height - rad || posY < rad) posY -= velY;
     }
-
 
     public void getButton(int dir, boolean isDown){
         if (isDown){

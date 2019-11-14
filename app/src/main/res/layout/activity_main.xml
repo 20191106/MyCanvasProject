@@ -10,7 +10,7 @@
         android:id="@+id/btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add Ball"/>
+        android:text="Add Enemies"/>
 
     <com.example.mycanvas2.MyCanvas
         android:id="@+id/myCanvas"
